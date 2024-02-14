@@ -1,3 +1,79 @@
+
+# General
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+*.pyo
+*.dll
+*.out
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# Temporary files
+*.swp
+*~
+*.bak
+*.backup
+*.tmp
+
+# Build files
+/build/
+/dist/
+/node_modules/
+/bower_components/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Dependency directories
+/vendor/
+/node_modules/
+/bower_components/
+
+# Compiled Python files
+__pycache__/
+
+# Environment configuration files
+.env
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Terraform
 # Local .terraform directories
 **/.terraform/*
 
@@ -32,3 +108,5 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+/terraform
+/Terraform
